@@ -16,29 +16,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="rl1-sA-uEi">
-                                <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="emojiCell" rowHeight="63" id="rl1-sA-uEi" customClass="EmojiTableViewCell" customModule="EmojiReader" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="63"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rl1-sA-uEi" id="kfy-uh-37c">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="63"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DiT-QO-CZL">
+                                            <rect key="frame" x="16" y="8" width="361" height="47"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="😇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZpM-9s-fA0">
+                                                    <rect key="frame" x="0.0" y="0.0" width="23" height="47"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vLi-SA-NYp">
+                                                    <rect key="frame" x="33" y="0.0" width="328" height="47"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Angel smile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9o-ip-o5S">
+                                                            <rect key="frame" x="0.0" y="0.0" width="328" height="23.666666666666668"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keep smiling every day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4m-jy-oLS">
+                                                            <rect key="frame" x="0.0" y="23.666666666666671" width="328" height="23.333333333333329"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="DiT-QO-CZL" secondAttribute="bottom" constant="8" id="ZlA-7P-K1W"/>
+                                        <constraint firstItem="DiT-QO-CZL" firstAttribute="leading" secondItem="kfy-uh-37c" secondAttribute="leading" constant="16" id="cF0-iq-b5O"/>
+                                        <constraint firstAttribute="trailing" secondItem="DiT-QO-CZL" secondAttribute="trailing" constant="16" id="mJm-Ci-YDb"/>
+                                        <constraint firstItem="DiT-QO-CZL" firstAttribute="top" secondItem="kfy-uh-37c" secondAttribute="top" constant="8" id="sta-zb-ORh"/>
+                                    </constraints>
                                 </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="KlC-yq-Ikn">
-                                <rect key="frame" x="0.0" y="99" width="393" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KlC-yq-Ikn" id="zTC-hi-naT">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="T46-ZZ-FvC">
-                                <rect key="frame" x="0.0" y="142.66666793823242" width="393" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T46-ZZ-FvC" id="6zn-bC-ruI">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="C4m-jy-oLS" id="CTx-3O-bc4"/>
+                                    <outlet property="emojiLabel" destination="ZpM-9s-fA0" id="CEr-pT-Gqh"/>
+                                    <outlet property="nameLabel" destination="o9o-ip-o5S" id="jHv-h6-B7X"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
