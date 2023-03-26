@@ -14,6 +14,7 @@
 		20B0EFB329D0422200C1F7D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B0EFB129D0422200C1F7D7 /* LaunchScreen.storyboard */; };
 		20B0EFBB29D043FD00C1F7D7 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0EFBA29D043FD00C1F7D7 /* EmojiTableViewController.swift */; };
 		20B0EFBD29D05DA600C1F7D7 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0EFBC29D05DA600C1F7D7 /* EmojiTableViewCell.swift */; };
+		20B0EFBF29D05F7700C1F7D7 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B0EFBE29D05F7700C1F7D7 /* EmojiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		20B0EFB429D0422200C1F7D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B0EFBA29D043FD00C1F7D7 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
 		20B0EFBC29D05DA600C1F7D7 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		20B0EFBE29D05F7700C1F7D7 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				20B0EFA629D0422100C1F7D7 /* AppDelegate.swift */,
 				20B0EFA829D0422100C1F7D7 /* SceneDelegate.swift */,
+				20B0EFBE29D05F7700C1F7D7 /* EmojiModel.swift */,
 				20B0EFBA29D043FD00C1F7D7 /* EmojiTableViewController.swift */,
 				20B0EFBC29D05DA600C1F7D7 /* EmojiTableViewCell.swift */,
 				20B0EFAC29D0422100C1F7D7 /* Main.storyboard */,
@@ -144,6 +147,7 @@
 				20B0EFBB29D043FD00C1F7D7 /* EmojiTableViewController.swift in Sources */,
 				20B0EFA729D0422100C1F7D7 /* AppDelegate.swift in Sources */,
 				20B0EFBD29D05DA600C1F7D7 /* EmojiTableViewCell.swift in Sources */,
+				20B0EFBF29D05F7700C1F7D7 /* EmojiModel.swift in Sources */,
 				20B0EFA929D0422100C1F7D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
