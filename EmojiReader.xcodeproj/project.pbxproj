@@ -58,8 +58,8 @@
 			children = (
 				20B0EFA629D0422100C1F7D7 /* AppDelegate.swift */,
 				20B0EFA829D0422100C1F7D7 /* SceneDelegate.swift */,
-				20B0EFAC29D0422100C1F7D7 /* Main.storyboard */,
 				20B0EFBA29D043FD00C1F7D7 /* EmojiTableViewController.swift */,
+				20B0EFAC29D0422100C1F7D7 /* Main.storyboard */,
 				20B0EFAF29D0422200C1F7D7 /* Assets.xcassets */,
 				20B0EFB129D0422200C1F7D7 /* LaunchScreen.storyboard */,
 				20B0EFB429D0422200C1F7D7 /* Info.plist */,
